@@ -6,7 +6,7 @@ A modern and responsive fashion e-commerce website built using ReactJS and Tailw
 
 ## 🚀 Live Demo
 
-https://your-vercel-link.vercel.app/
+https://style-hub-seven-omega.vercel.app/
 
 ---
 
@@ -53,12 +53,7 @@ src/
 
 ---
 
-## 📸 Screenshots
-
-(Add website screenshot here later)
-
----
 
 ## 👨‍💻 Author
 
-Made with ❤️ by Your Name
+Made with ❤️ by Mallikarjun Alyal
