@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './Pages/Home'
@@ -10,7 +10,7 @@ import Cart from './Pages/Cart'
 import PageNotFound from './Pages/PageNotFound'
 const App = () => {
     return (
-        <div className='min-h-screen'>
+        <div className='min-h-screen flex flex-col'>
 
             <Navbar />
             <Routes>
