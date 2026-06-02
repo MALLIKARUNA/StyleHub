@@ -3,7 +3,7 @@ import background from '../assets/Images/background.png'
 const Herosection = () => {
     const HandleScrooll = () => {
         const Section = document.getElementById('ProductCard')
-        Section.scrollIntoView({
+        Section?.scrollIntoView({
             behavior: 'smooth'
         })
     }
