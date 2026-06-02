@@ -1,4 +1,6 @@
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './Pages/Home'
 
 import Men from './Pages/Men'
@@ -8,9 +10,9 @@ import Cart from './Pages/Cart'
 import PageNotFound from './Pages/PageNotFound'
 const App = () => {
     return (
-        <div>
+        <div className='min-h-screen'>
 
-            {/* <Navbar /> */}
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/men" element={<Men />} />
@@ -20,7 +22,7 @@ const App = () => {
                 <Route path='*' element={<PageNotFound />} />
             </Routes>
             <div>
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </div>
     )
