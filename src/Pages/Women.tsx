@@ -1,8 +1,8 @@
-
+import ProductCard1 from "../components/ProductCard1"
 const Women = () => {
     return (
         <div>
-            <h1>this is women section</h1>
+            <ProductCard1 />
         </div>
     )
 }

@@ -28,6 +28,7 @@ const Navbar = () => {
                     Women
                 </Link>
 
+
                 <Link to="/cart" className='hover:text-white duration-300'>
                     Cart
                 </Link>

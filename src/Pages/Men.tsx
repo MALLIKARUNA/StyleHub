@@ -1,8 +1,8 @@
-
+import ProductCard from "../components/ProductCard";
 const Men = () => {
     return (
         <div>
-            <h1>this is Men section</h1>
+            <ProductCard />
         </div>
     )
 }
