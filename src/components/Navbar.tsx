@@ -2,7 +2,11 @@
 import { Link } from 'react-router-dom'
 import logo from '../assets/Images/Logo.png'
 
-const Navbar = () => {
+interface NavbarProps {
+  cartCount: number
+}
+
+const Navbar = ({ cartCount }: NavbarProps) => {
     return (
         <nav className='bg-amber-400 flex justify-between items-center px-10 py-3 shadow-sm'>
 
@@ -30,7 +34,7 @@ const Navbar = () => {
 
 
                 <Link to="/cart" className='hover:text-white duration-300'>
-                    Cart
+                    Cart {cartCount > 0 && `(${cartCount})`}
                 </Link>
 
             </div>
