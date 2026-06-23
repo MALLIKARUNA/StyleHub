@@ -102,14 +102,6 @@ const ProductDetails = ({ addCart }: any) => {
   )
 
   const [selectedSize, setSelectedSize] = useState("")
-  const handleBuyNow = () => {
-    if (!selectedSize) {
-      alert("Please select size")
-      return
-    }
-
-    navigate("/Cheackout")
-  }
 
 
 
@@ -205,6 +197,7 @@ const ProductDetails = ({ addCart }: any) => {
                 }
                 navigate("/Cheackout")
               }}
+
               className='bg-black text-white px-8 py-3 rounded-lg text-lg font-semibold hover:opacity-90 duration-300'>
               Buy It Now
             </button>
